@@ -1,0 +1,10 @@
+-d I:\Gowin\mini_star\exp4_seg_display\impl\gwsynthesis\SEG_2.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst I:\Gowin\mini_star\exp4_seg_display\src\top_seq2.cst
+-cfg I:\Gowin\mini_star\exp4_seg_display\impl\pnr\device.cfg
+-sdc I:\Gowin\mini_star\exp4_seg_display\src\SEG_2.sdc
+-bit
+-tr
+-ph
+-timing

@@ -1,0 +1,80 @@
+[
+ {
+  "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/top_watch.v",
+  "InstLine" : 21,
+  "InstName" : "top_watch",
+  "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/top_watch.v",
+  "ModuleLine" : 21,
+  "ModuleName" : "top_watch",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/top_watch.v",
+    "InstLine" : 54,
+    "InstName" : "u_watch_data_gen",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/watch_data_gen.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "watch_data_gen",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/watch_data_gen.v",
+      "InstLine" : 76,
+      "InstName" : "btn_deb_key",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/btn_deb.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "btn_deb"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/top_watch.v",
+    "InstLine" : 68,
+    "InstName" : "display_ctl",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/display_ctl.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "display_ctl",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/display_ctl.v",
+      "InstLine" : 41,
+      "InstName" : "div_clk",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/div_clk.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "div_clk"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/display_ctl.v",
+      "InstLine" : 57,
+      "InstName" : "seq_control_0",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/seq_control.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "seq_control"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/display_ctl.v",
+      "InstLine" : 71,
+      "InstName" : "seq_control_1",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/seq_control.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "seq_control"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/display_ctl.v",
+      "InstLine" : 85,
+      "InstName" : "seq_control_2",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/seq_control.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "seq_control"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/display_ctl.v",
+      "InstLine" : 99,
+      "InstName" : "seq_control_3",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp7_watch/src/seq_control.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "seq_control"
+     }
+    ]
+   }
+  ]
+ }
+]

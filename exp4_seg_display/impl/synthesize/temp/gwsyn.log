@@ -1,0 +1,4 @@
+GowinSynthesis start
+Running parser ...
+ERROR (EX1998) : Cannot open Verilog file 'I:\Gowin\mini_star\exp4_seg_display\impl\synthesize\rev_1\SEG_2.vm'
+GowinSynthesis finish

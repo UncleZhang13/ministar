@@ -1,0 +1,86 @@
+[
+ {
+  "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+  "InstLine" : 21,
+  "InstName" : "top_seq_det",
+  "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+  "ModuleLine" : 21,
+  "ModuleName" : "top_seq_det",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+    "InstLine" : 37,
+    "InstName" : "key_control",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/key_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "key_control",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/key_control.v",
+      "InstLine" : 37,
+      "InstName" : "btn_deb_key",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/btn_deb.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "btn_deb"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/key_control.v",
+      "InstLine" : 48,
+      "InstName" : "btn_deb_det",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/btn_deb.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "btn_deb"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+    "InstLine" : 52,
+    "InstName" : "seq_det",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/seq_det.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_det"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+    "InstLine" : 63,
+    "InstName" : "div_clk",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/div_clk.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "div_clk"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+    "InstLine" : 79,
+    "InstName" : "seq_control_0",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+    "InstLine" : 88,
+    "InstName" : "seq_control_1",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+    "InstLine" : 98,
+    "InstName" : "seq_control_2",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+    "InstLine" : 107,
+    "InstName" : "seq_control_3",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   }
+  ]
+ }
+]

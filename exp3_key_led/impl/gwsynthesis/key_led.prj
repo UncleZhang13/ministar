@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="7" partNumber="GW1NSR-LV4CQN48PC7/I6"/>
+    <FileList>
+        <File path="I:\Gowin\mini_star\exp3_key_led\src\btn_deb.v" type="verilog"/>
+        <File path="I:\Gowin\mini_star\exp3_key_led\src\key_ctl.v" type="verilog"/>
+        <File path="I:\Gowin\mini_star\exp3_key_led\src\led.v" type="verilog"/>
+        <File path="I:\Gowin\mini_star\exp3_key_led\src\key_led_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="I:\Gowin\mini_star\exp3_key_led\impl\gwsynthesis\key_led.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="key_led_top"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

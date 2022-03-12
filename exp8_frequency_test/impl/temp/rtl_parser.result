@@ -1,0 +1,76 @@
+[
+ {
+  "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+  "InstLine" : 21,
+  "InstName" : "top_freq",
+  "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+  "ModuleLine" : 21,
+  "ModuleName" : "top_freq",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+    "InstLine" : 37,
+    "InstName" : "btn_deb_key",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/btn_deb.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "btn_deb"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+    "InstLine" : 48,
+    "InstName" : "key0",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/key_cnt.v",
+    "ModuleLine" : 29,
+    "ModuleName" : "key_cnt"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+    "InstLine" : 64,
+    "InstName" : "freq_test",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/freq_test.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "freq_test"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+    "InstLine" : 76,
+    "InstName" : "div_clk",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/div_clk.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "div_clk"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+    "InstLine" : 92,
+    "InstName" : "seq_control_0",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+    "InstLine" : 101,
+    "InstName" : "seq_control_1",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+    "InstLine" : 110,
+    "InstName" : "seq_control_2",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+    "InstLine" : 119,
+    "InstName" : "seq_control_3",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   }
+  ]
+ }
+]

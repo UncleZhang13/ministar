@@ -1,0 +1,76 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\btn_deb.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\compare.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\div_clk.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\lock_top.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_control.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v'
+Compiling module 'lock_top'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\lock_top.v":23)
+Compiling module 'key_ctl'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":23)
+Compiling module 'btn_deb(BTN_WIDTH=4'd4,MS_20=20'd540000)'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\btn_deb.v":23)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":58)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":59)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":60)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":61)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":67)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":70)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":77)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\key_ctl.v":80)
+Compiling module 'compare'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\compare.v":23)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\compare.v":38)
+Compiling module 'seq_display'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":23)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":40)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":42)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":54)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":55)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":56)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":57)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":61)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":62)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":63)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":64)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":69)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":70)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":71)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":72)
+Compiling module 'div_clk'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\div_clk.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\div_clk.v":31)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\div_clk.v":33)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\div_clk.v":40)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\div_clk.v":42)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":94)
+Compiling module 'seq_control'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_control.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":132)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":134)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":136)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":138)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":144)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":146)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":148)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":150)
+NOTE  (EX0101) : Current top module is "lock_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_0" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":103)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_1" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":111)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_2" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":119)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_3" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\seq_display.v":127)
+[95%] Generate netlist file "C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\impl\gwsynthesis\lock.vg" completed
+[100%] Generate report file "C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\impl\gwsynthesis\lock_syn.rpt.html" completed
+GowinSynthesis finish

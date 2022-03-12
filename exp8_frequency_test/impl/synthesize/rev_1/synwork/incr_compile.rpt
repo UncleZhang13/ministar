@@ -1,0 +1,69 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+Modified Files: 22
+FID:  path (prevtimestamp, timestamp)
+11       C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\generic\gw1n.v (N/A, 2019-09-26 01:52:32)
+12       C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\hypermods.v (N/A, 2019-09-26 00:18:26)
+13       C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2019-09-26 00:18:26)
+14       C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2019-09-26 00:18:26)
+15       C:\Gowin\Gowin_V1.9.2.02Beta\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2019-09-26 00:18:26)
+0        D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\generic\gw1n.v (2019-03-21 13:46:02, N/A)
+1        D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\hypermods.v (2019-03-13 00:06:40, N/A)
+2        D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_objects.v (2019-03-13 00:06:40, N/A)
+3        D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\scemi_pipes.svh (2019-03-13 00:06:40, N/A)
+4        D:\Program Files\Gowin\Gowin_V1.9.1.01Beta\SynplifyPro\lib\vlog\umr_capim.v (2019-03-13 00:06:40, N/A)
+16       E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\btn_deb.v (N/A, 2020-03-03 19:16:31)
+17       E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\div_clk.v (N/A, 2020-03-03 19:16:31)
+18       E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\freq_test.v (N/A, 2020-03-10 14:43:30)
+19       E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\key_cnt.v (N/A, 2019-09-23 17:34:30)
+20       E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\seq_control.v (N/A, 2020-03-10 14:42:54)
+21       E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\top_freq.v (N/A, 2020-03-10 14:44:43)
+5        F:\Gowin_course\edu\proj\FRE\FRE\src\btn_deb.v (2019-09-16 10:18:34, N/A)
+10       F:\Gowin_course\edu\proj\FRE\FRE\src\div_clk.v (2019-09-16 22:02:52, N/A)
+6        F:\Gowin_course\edu\proj\FRE\FRE\src\freq_test.v (2019-09-23 18:40:34, N/A)
+7        F:\Gowin_course\edu\proj\FRE\FRE\src\key_cnt.v (2019-09-23 17:34:30, N/A)
+8        F:\Gowin_course\edu\proj\FRE\FRE\src\seq_control.v (2019-09-23 17:55:54, N/A)
+9        F:\Gowin_course\edu\proj\FRE\FRE\src\top_freq.v (2019-09-23 18:22:39, N/A)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 6
+MID:  lib.cell.view
+0        work.btn_deb.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\btn_deb.v (N/A, 2020-03-03 19:16:31) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\top_freq.v (N/A, 2020-03-10 14:44:43) <-- (may instantiate this module)
+5        work.div_clk.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\div_clk.v (N/A, 2020-03-03 19:16:31) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\top_freq.v (N/A, 2020-03-10 14:44:43) <-- (may instantiate this module)
+1        work.freq_test.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\freq_test.v (N/A, 2020-03-10 14:43:30) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\top_freq.v (N/A, 2020-03-10 14:44:43) <-- (may instantiate this module)
+2        work.key_cnt.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\key_cnt.v (N/A, 2019-09-23 17:34:30) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\top_freq.v (N/A, 2020-03-10 14:44:43) <-- (may instantiate this module)
+3        work.seq_control.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\seq_control.v (N/A, 2020-03-10 14:42:54) <-- (module definition)
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\top_freq.v (N/A, 2020-03-10 14:44:43) <-- (may instantiate this module)
+4        work.top_freq.verilog may have changed because the following files changed:
+                        E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\top_freq.v (N/A, 2020-03-10 14:44:43) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

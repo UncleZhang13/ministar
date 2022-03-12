@@ -1,0 +1,78 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\btn_deb.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\div_clk.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\key_cnt.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\seq_control.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v'
+Compiling module 'top_freq'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":21)
+Compiling module 'btn_deb(BTN_WIDTH=4'd1,MS_20=26'b00000010000011110101100000)'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\btn_deb.v":23)
+Compiling module 'key_cnt'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\key_cnt.v":29)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\key_cnt.v":39)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\key_cnt.v":45)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\key_cnt.v":47)
+Compiling module 'freq_test(CLK_FRE=26'b01100110111111110011000000)'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":39)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":53)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":55)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":62)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":64)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":74)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":89)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":98)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":128)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":130)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":132)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":134)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":141)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":143)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":145)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":147)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":153)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":155)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":157)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":159)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":165)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":167)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":169)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\freq_test.v":171)
+Compiling module 'div_clk'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\div_clk.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\div_clk.v":31)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\div_clk.v":33)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\div_clk.v":40)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\div_clk.v":42)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":89)
+Compiling module 'seq_control'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\seq_control.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":130)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":132)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":134)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":136)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":142)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":144)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":146)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":148)
+NOTE  (EX0101) : Current top module is "top_freq"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_0" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":98)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_1" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":107)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_2" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":116)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_3" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\src\top_freq.v":125)
+[95%] Generate netlist file "C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\impl\gwsynthesis\FRE.vg" completed
+[100%] Generate report file "C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp8_frequency_test\impl\gwsynthesis\FRE_syn.rpt.html" completed
+GowinSynthesis finish

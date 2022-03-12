@@ -1,0 +1,92 @@
+[
+ {
+  "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+  "InstLine" : 24,
+  "InstName" : "top_seq2",
+  "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+  "ModuleLine" : 24,
+  "ModuleName" : "top_seq2",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 40,
+    "InstName" : "U_btn_deb",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/btn_deb.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "btn_deb"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 51,
+    "InstName" : "key0",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v",
+    "ModuleLine" : 29,
+    "ModuleName" : "key_cnt"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 59,
+    "InstName" : "key1",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v",
+    "ModuleLine" : 29,
+    "ModuleName" : "key_cnt"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 67,
+    "InstName" : "key2",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v",
+    "ModuleLine" : 29,
+    "ModuleName" : "key_cnt"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 75,
+    "InstName" : "key3",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v",
+    "ModuleLine" : 29,
+    "ModuleName" : "key_cnt"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 85,
+    "InstName" : "div_clk",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/div_clk.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "div_clk"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 102,
+    "InstName" : "seq_control_0",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 113,
+    "InstName" : "seq_control_1",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 124,
+    "InstName" : "seq_control_2",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+    "InstLine" : 135,
+    "InstName" : "seq_control_3",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v",
+    "ModuleLine" : 21,
+    "ModuleName" : "seq_control"
+   }
+  ]
+ }
+]

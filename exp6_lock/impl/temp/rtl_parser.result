@@ -1,0 +1,88 @@
+[
+ {
+  "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/lock_top.v",
+  "InstLine" : 23,
+  "InstName" : "lock_top",
+  "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/lock_top.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "lock_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/lock_top.v",
+    "InstLine" : 40,
+    "InstName" : "key_ctl",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/key_ctl.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "key_ctl",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/key_ctl.v",
+      "InstLine" : 39,
+      "InstName" : "btn_deb_key",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/btn_deb.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "btn_deb"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/lock_top.v",
+    "InstLine" : 51,
+    "InstName" : "compare",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/compare.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "compare"
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/lock_top.v",
+    "InstLine" : 60,
+    "InstName" : "seq_display",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_display.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "seq_display",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_display.v",
+      "InstLine" : 80,
+      "InstName" : "div_clk",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/div_clk.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "div_clk"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_display.v",
+      "InstLine" : 97,
+      "InstName" : "seq_control_0",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_control.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "seq_control"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_display.v",
+      "InstLine" : 105,
+      "InstName" : "seq_control_1",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_control.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "seq_control"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_display.v",
+      "InstLine" : 113,
+      "InstName" : "seq_control_2",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_control.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "seq_control"
+     },
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_display.v",
+      "InstLine" : 121,
+      "InstName" : "seq_control_3",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp6_lock/src/seq_control.v",
+      "ModuleLine" : 21,
+      "ModuleName" : "seq_control"
+     }
+    ]
+   }
+  ]
+ }
+]

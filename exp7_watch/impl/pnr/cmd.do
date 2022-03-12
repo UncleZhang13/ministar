@@ -1,0 +1,10 @@
+-d C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\impl\gwsynthesis\watch.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\top_watch.cst
+-cfg C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\impl\pnr\device.cfg
+-sdc C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch.sdc
+-bit
+-tr
+-ph
+-timing

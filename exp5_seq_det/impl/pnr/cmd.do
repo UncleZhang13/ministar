@@ -1,0 +1,10 @@
+-d C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp5_seq_det\impl\gwsynthesis\lock.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp5_seq_det\src\top_seq_det.cst
+-cfg C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp5_seq_det\impl\pnr\device.cfg
+-sdc C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp5_seq_det\src\lock.sdc
+-bit
+-tr
+-ph
+-timing

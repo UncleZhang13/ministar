@@ -1,0 +1,70 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'I:\Gowin\mini_star\exp5_seq_det\src\btn_deb.v'
+Analyzing Verilog file 'I:\Gowin\mini_star\exp5_seq_det\src\div_clk.v'
+Analyzing Verilog file 'I:\Gowin\mini_star\exp5_seq_det\src\key_control.v'
+Analyzing Verilog file 'I:\Gowin\mini_star\exp5_seq_det\src\seq_control.v'
+Analyzing Verilog file 'I:\Gowin\mini_star\exp5_seq_det\src\seq_det.v'
+Analyzing Verilog file 'I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v'
+Compiling module 'top_seq_det'("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":21)
+Compiling module 'key_control'("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":21)
+Compiling module 'btn_deb(BTN_WIDTH=4'd2,MS_20=20'd540000)'("I:\Gowin\mini_star\exp5_seq_det\src\btn_deb.v":23)
+Compiling module 'btn_deb(BTN_WIDTH=4'd1,MS_20=20'd540000)'("I:\Gowin\mini_star\exp5_seq_det\src\btn_deb.v":23)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":61)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":62)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":63)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":70)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":72)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":79)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":81)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":83)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":89)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":91)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":93)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":98)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\key_control.v":105)
+Compiling module 'seq_det'("I:\Gowin\mini_star\exp5_seq_det\src\seq_det.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\seq_det.v":37)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\seq_det.v":43)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\seq_det.v":50)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\seq_det.v":51)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\seq_det.v":52)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\seq_det.v":60)
+Compiling module 'div_clk'("I:\Gowin\mini_star\exp5_seq_det\src\div_clk.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\div_clk.v":31)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\div_clk.v":33)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\div_clk.v":40)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\div_clk.v":42)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":76)
+Compiling module 'seq_control'("I:\Gowin\mini_star\exp5_seq_det\src\seq_control.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":118)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":120)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":122)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":124)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":130)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":132)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":134)
+WARN  (EX2629) : Delay control is not supported for synthesis("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":136)
+NOTE  (EX0101) : Current top module is "top_seq_det"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_0" is swept in optimizing("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":84)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_2" is swept in optimizing("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":104)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_3" is swept in optimizing("I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.v":113)
+[95%] Generate netlist file "I:\Gowin\mini_star\exp5_seq_det\impl\gwsynthesis\Seq_Det.vg" completed
+[100%] Generate report file "I:\Gowin\mini_star\exp5_seq_det\impl\gwsynthesis\Seq_Det_syn.rpt.html" completed
+GowinSynthesis finish

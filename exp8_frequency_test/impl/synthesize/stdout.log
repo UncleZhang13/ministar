@@ -1,0 +1,22 @@
+
+Starting:    D:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     D:\Gowin\Gowin_V1.9.7.03Beta\SynplifyPro
+Hostname:    EYE-02
+Date:        Fri May 14 13:59:59 2021
+Version:     Q-2020.03G-Beta1
+
+Arguments:   -product synplify_pro -batch -licensetype synplifypro_gowin I:/Gowin/mini_star/exp8_frequency_test/impl/synthesize/FRE.prj
+ProductType: synplify_pro
+
+Feature has expired.
+Feature:       synplifypro_gowin
+License path:  C:\modeltech64_10.1c\LICENSE.txt;
+FlexNet Licensing error:-10,234
+
+
+Host ID:  5E88DBE694D7
+Please contact support at https://solvnetplus.synopsys.com/ManageCase?ccf=1
+
+
+Running in Vendor Mode
+

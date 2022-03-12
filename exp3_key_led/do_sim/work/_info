@@ -1,0 +1,235 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Uncle/Desktop/fpGA/mini_star(1)/exp3_key_led/do_sim
+vbtn_deb
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7h2Az8D8bhWFe^O_6k0=40
+IZe<lnERn1<TAb_65mmReT3
+Z1 dC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/do_sim
+w1620814401
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/btn_deb.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/btn_deb.v
+Z2 L0 23
+Z3 OL;L;10.6c;65
+Z4 !s108 1646135389.000000
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/btn_deb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/btn_deb.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vdiv_clk
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 zWVdKlM5W`?CCk1ifG55b0
+IoQP3fz^d83UNK?DcWA`Ek0
+R1
+w1646135384
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/div_clk.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/div_clk.v
+Z7 L0 21
+R3
+R4
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/div_clk.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/div_clk.v|
+!i113 0
+R5
+R6
+vkey_cnt
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 <g2P2n@LX=ca]DdSnAj6S2
+Ii<lmd@hh:o`XVd?2ANOPN2
+R1
+w1620814494
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v
+L0 29
+R3
+R4
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v|
+!i113 0
+R5
+R6
+vkey_ctl
+Z8 !s110 1646135388
+!i10b 1
+!s100 17KTAI;ZKn:m;XVT;kU>:1
+IM@h3HnYf[kk``5>LUGKAI3
+R0
+R1
+w1646132007
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_ctl.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_ctl.v
+R2
+R3
+r1
+!s85 0
+31
+Z9 !s108 1646135388.000000
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_ctl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_ctl.v|
+!i113 0
+R5
+R6
+vkey_led_top
+R8
+!i10b 1
+!s100 iJ6A8F[b`RNE@[[M^I8z<3
+ImH;=lH2BmLe=Ife33HYYe1
+R0
+R1
+w1620789305
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v
+R2
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v|
+!i113 0
+R5
+R6
+vled
+Z10 !s110 1646135389
+!i10b 1
+!s100 eQm_SPG;Vl^^i9C`W=ZR[2
+IZNnc@jzSXR3eE<JK0FOI_3
+R0
+R1
+w1646132805
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/led.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/led.v
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/led.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/led.v|
+!i113 0
+R5
+R6
+vseq_control
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 gbha8`V6Zb]EmKTKhDnj41
+I2eBlbj;HkHmNfFPGJLI<I0
+R1
+w1620818595
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v
+R7
+R3
+R4
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v|
+!i113 0
+R5
+R6
+vtb_key_ctl
+R10
+!i10b 1
+!s100 jYR9E[Ukd]_F<2;8;goW13
+IMEXI;<=Yko44Y6zekQc;R3
+R0
+R1
+w1646132003
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_ctl.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_ctl.v
+Z11 L0 22
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_ctl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_ctl.v|
+!i113 0
+R5
+R6
+vtb_key_led_top
+R10
+!i10b 1
+!s100 2`3hoVgYMP0L2ke?4dNol3
+IZJ3LejfYM>Ek76EASlG8o1
+R0
+R1
+w1646132070
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_led_top.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_led_top.v
+R11
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_led_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_led_top.v|
+!i113 0
+R5
+R6
+vtb_top_seq2
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 JLR2Zfahg65aOK9Rj5@DV0
+ICNUl227PQ?B8zY=ONcFT93
+R1
+w1646134386
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/tb/tb_top_seq2.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/tb/tb_top_seq2.v
+R11
+R3
+R4
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/tb/tb_top_seq2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/tb/tb_top_seq2.v|
+!i113 0
+R5
+R6
+vtop_seq2
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 [W;b>]e4=<f@MokP1l;KB1
+IeAL`@o?Q6RT6[I[MdeXXW3
+R1
+w1646135112
+8C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v
+FC:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v
+L0 24
+R3
+R4
+!s107 C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v|
+!i113 0
+R5
+R6

@@ -1,0 +1,107 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\btn_deb.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\div_clk.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\seq_control.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\top_watch.v'
+Analyzing Verilog file 'C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v'
+Compiling module 'top_watch'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\top_watch.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\top_watch.v":38)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\top_watch.v":40)
+Compiling module 'watch_data_gen(CLK_FRE=26'b01100110111111110011000000)'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":44)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":46)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":52)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":54)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":56)
+Compiling module 'btn_deb(BTN_WIDTH=4'd3,MS_20=26'b00000010000011110101100000)'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\btn_deb.v":23)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":95)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":102)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":104)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":112)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":114)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":116)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":118)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":120)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":127)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":129)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":131)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":133)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":135)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":142)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":144)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":146)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":148)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":150)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":152)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":154)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":161)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":163)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":165)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":167)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":169)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":179)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":181)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":190)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":192)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":194)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":196)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":202)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":204)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":206)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":208)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":216)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":218)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":220)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":222)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":224)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":230)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":232)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":234)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":236)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":252)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":257)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":262)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":267)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch_data_gen.v":272)
+Compiling module 'display_ctl'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":21)
+Compiling module 'div_clk'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\div_clk.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\div_clk.v":31)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\div_clk.v":33)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\div_clk.v":40)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\div_clk.v":42)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":54)
+Compiling module 'seq_control'("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\seq_control.v":21)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":114)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":116)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":118)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":120)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":127)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":129)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":131)
+WARN  (EX2629) : Delay control is not supported for synthesis("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":133)
+NOTE  (EX0101) : Current top module is "top_watch"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_0" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":66)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_1" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":80)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_2" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":94)
+WARN  (NL0002) : The module "seq_control" instantiated to "seq_control_3" is swept in optimizing("C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\display_ctl.v":108)
+[95%] Generate netlist file "C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\impl\gwsynthesis\watch.vg" completed
+[100%] Generate report file "C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\impl\gwsynthesis\watch_syn.rpt.html" completed
+GowinSynthesis finish

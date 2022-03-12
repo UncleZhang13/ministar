@@ -1,0 +1,36 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/btn_deb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/div_clk.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/key_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/seq_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/seq_det.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/src/top_seq_det.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp5_seq_det/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

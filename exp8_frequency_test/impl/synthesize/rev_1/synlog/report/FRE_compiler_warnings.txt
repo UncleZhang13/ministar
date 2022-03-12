@@ -1,0 +1,2 @@
+@W: CG1340 :"E:\project_manager\Mini_eye_Board\gowin\course\course15_FRE\FRE\src\freq_test.v":41:27:41:39|Index into variable clk_gen could be out of range ; a simulation mismatch is possible.
+

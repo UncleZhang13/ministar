@@ -1,0 +1,36 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/btn_deb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/div_clk.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/freq_test.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/key_cnt.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/seq_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/src/top_freq.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp8_frequency_test/impl/temp/rtl_parser.result",
+ "Top" : "top_freq",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

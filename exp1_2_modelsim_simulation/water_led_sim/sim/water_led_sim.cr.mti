@@ -1,0 +1,50 @@
+I:/Gowin/mini_star/exp1_modelsim/water_led_sim/src/water_led.v {2 {vlog -work work -stats=none I:/Gowin/mini_star/exp1_modelsim/water_led_sim/src/water_led.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module water_led_top
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+
+Top level modules:
+	water_led_top
+** Warning: (vlog-6) -- Waiting for lock by "EYE@EYE-02, pid = 14560
+". Lockfile is "I:/Gowin/mini_star/exp1_modelsim/water_led_sim/sim/work/_lock".
+-- Compiling module water_led
+
+Top level modules:
+	water_led
+
+} {} {}} C:/workshop/ministar/exp1_modelsim/water_led_sim/src/water_led.v {1 {vlog -work work -stats=none C:/workshop/ministar/exp1_modelsim/water_led_sim/src/water_led.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module water_led
+
+Top level modules:
+	water_led
+
+} {} {}} I:/Gowin/mini_star/exp1_modelsim/water_led_sim/tb/tb_water_led_top.v {1 {vlog -work work -stats=none I:/Gowin/mini_star/exp1_modelsim/water_led_sim/tb/tb_water_led_top.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_water_led_top
+
+Top level modules:
+	tb_water_led_top
+
+} {} {}} C:/workshop/ministar/exp1_modelsim/water_led_sim/tb/tb_water_led_top.v {1 {vlog -work work -stats=none C:/workshop/ministar/exp1_modelsim/water_led_sim/tb/tb_water_led_top.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_water_led_top
+
+Top level modules:
+	tb_water_led_top
+
+} {} {}} I:/Gowin/mini_star/exp1_modelsim/water_led_sim/src/water_led_top.v {1 {vlog -work work -stats=none I:/Gowin/mini_star/exp1_modelsim/water_led_sim/tb/tb_water_led_top.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_water_led_top
+
+Top level modules:
+	tb_water_led_top
+
+} {} {}} C:/workshop/ministar/exp1_modelsim/water_led_sim/src/water_led_top.v {1 {vlog -work work -stats=none C:/workshop/ministar/exp1_modelsim/water_led_sim/src/water_led_top.v
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module water_led_top
+
+Top level modules:
+	water_led_top
+
+} {} {}}

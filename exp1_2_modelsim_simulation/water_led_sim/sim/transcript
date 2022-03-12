@@ -1,0 +1,621 @@
+# //  Questa Sim-64
+# //  Version 10.6c win64 Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# reading modelsim.ini
+# Loading project work
+ls
+# key_ctl_sim.do
+# key_led_sim.do
+# modelsim.ini
+# vsim.wlf
+# work
+# work.cr.mti
+# work.mpf
+cd ..
+# reading modelsim.ini
+# reading D:/Questasim/Questasim/win64/../modelsim.ini
+ls
+# do_sim
+# impl
+# key_led.gprj
+# key_led.gprj.user
+# src
+# tb
+cd ..
+ls
+# exp1_2_modelsim_simulation
+# exp3_key_led
+# exp4_seg_display
+# exp5_seq_det
+# exp6_lock
+# exp7_watch
+# exp8_frequency_test
+# Ministar实验指导.pdf
+cd exp1_2_modelsim_simulation
+ls
+# water_led_sim
+# water_led_sim_pll
+cd water_led_sim
+ls
+# sim
+# src
+# tb
+cd sim
+# reading modelsim.ini
+ls
+# modelsim.ini
+# transcript
+# vsim.wlf
+# water_led_sim.cr.mti
+# water_led_sim.do
+# water_led_sim.mpf
+# wave.do
+# work
+do water_led_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:42:30 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../src/water_led.v ../src/water_led_top.v 
+# -- Skipping module water_led
+# -- Skipping module water_led_top
+# 
+# Top level modules:
+# 	water_led_top
+# End time: 13:42:30 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:42:30 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../tb/tb_runber.v 
+# ** Error: (vlog-7) Failed to open design unit file "../tb/tb_runber.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 13:42:31 on Mar 05,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: D:/Questasim/Questasim/win64/vlog failed.
+# Error in macro ./water_led_sim.do line 13
+# D:/Questasim/Questasim/win64/vlog failed.
+#     while executing
+# "vlog -novopt -incr -work work  "../tb/tb_runber.v""
+do water_led_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:44:17 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../src/water_led.v ../src/water_led_top.v 
+# -- Skipping module water_led
+# -- Skipping module water_led_top
+# 
+# Top level modules:
+# 	water_led_top
+# End time: 13:44:17 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:44:17 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../tb/tb_runber.v 
+# ** Error: (vlog-7) Failed to open design unit file "../tb/tb_runber.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 13:44:17 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: D:/Questasim/Questasim/win64/vlog failed.
+# Error in macro ./water_led_sim.do line 13
+# D:/Questasim/Questasim/win64/vlog failed.
+#     while executing
+# "vlog -novopt -incr -work work  "../tb/tb_runber.v""
+ls
+# modelsim.ini
+# transcript
+# vsim.wlf
+# water_led_sim.cr.mti
+# water_led_sim.do
+# water_led_sim.mpf
+# wave.do
+# work
+vsim -novopt work.tb_water_led_top
+# vsim -novopt work.tb_water_led_top 
+# Start time: 13:45:01 on Mar 05,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp1_2_modelsim_simulation/water_led_sim/sim/work.tb_water_led_top
+# Loading work.tb_water_led_top
+# Loading work.water_led_top
+# Loading work.water_led
+vsim -novopt work.tb_water_led_top
+# End time: 13:45:21 on Mar 05,2022, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# vsim -novopt work.tb_water_led_top 
+# Start time: 13:45:21 on Mar 05,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_water_led_top
+# Loading work.water_led_top
+# Loading work.water_led
+quit -sim
+# End time: 13:45:42 on Mar 05,2022, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+do water_led_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:45:47 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../src/water_led.v ../src/water_led_top.v 
+# -- Skipping module water_led
+# -- Skipping module water_led_top
+# 
+# Top level modules:
+# 	water_led_top
+# End time: 13:45:47 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:45:47 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../tb/tb_runber.v 
+# ** Error: (vlog-7) Failed to open design unit file "../tb/tb_runber.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 13:45:47 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: D:/Questasim/Questasim/win64/vlog failed.
+# Error in macro ./water_led_sim.do line 13
+# D:/Questasim/Questasim/win64/vlog failed.
+#     while executing
+# "vlog -novopt -incr -work work  "../tb/tb_runber.v""
+cd ..
+# reading D:/Questasim/Questasim/win64/../modelsim.ini
+ls
+# sim
+# src
+# tb
+cd tb
+ls
+# tb_water_led_top.v
+cd ..
+cd sim
+# reading modelsim.ini
+ls
+# modelsim.ini
+# transcript
+# vsim.wlf
+# water_led_sim.cr.mti
+# water_led_sim.do
+# water_led_sim.mpf
+# wave.do
+# work
+do water_led_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:47:53 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../src/water_led.v ../src/water_led_top.v 
+# -- Skipping module water_led
+# -- Skipping module water_led_top
+# 
+# Top level modules:
+# 	water_led_top
+# End time: 13:47:53 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:47:53 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../tb/tb_runber.v 
+# ** Error: (vlog-7) Failed to open design unit file "../tb/tb_runber.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 13:47:53 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: D:/Questasim/Questasim/win64/vlog failed.
+# Error in macro ./water_led_sim.do line 13
+# D:/Questasim/Questasim/win64/vlog failed.
+#     while executing
+# "vlog -novopt -incr -work work  "../tb/tb_runber.v""
+cd ..
+# reading D:/Questasim/Questasim/win64/../modelsim.ini
+ls
+# sim
+# src
+# tb
+cd do_sim
+# couldn't change working directory to "do_sim": no such file or directory
+cd ..
+ls
+# water_led_sim
+# water_led_sim_pll
+cd water_led_sim_pll
+ls
+# do_sim
+# sim
+# src
+# tb
+cd do_sim
+# reading modelsim.ini
+ls
+# modelsim.ini
+# vsim.wlf
+# water_led_sim.do
+# work
+do water_led_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vmap 10.6c Lib Mapping Utility 2017.07 Jul 26 2017
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:49:56 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../src/water_led.v ../src/water_led_top.v 
+# -- Skipping module water_led
+# -- Skipping module water_led_top
+# 
+# Top level modules:
+# 	water_led_top
+# End time: 13:49:56 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:49:56 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../tb/tb_water_led_top.v 
+# -- Skipping module tb_water_led_top
+# 
+# Top level modules:
+# 	tb_water_led_top
+# End time: 13:49:56 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:49:56 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work ../src/gowin_pll/sys_pll.v 
+# -- Skipping module sys_pll
+# 
+# Top level modules:
+# 	sys_pll
+# End time: 13:49:56 on Mar 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 13:49:56 on Mar 05,2022
+# vlog -reportprogress 300 -novopt -incr -work work D:/FPGA/Gowin/Gowin_V1.9.8.03/IDE/simlib/gw1n/prim_sim.v 
+# -- Skipping UDP mux2
+# -- Skipping module MUX2
+# -- Skipping module MUX2_LUT5
+# -- Skipping module MUX2_LUT6
+# -- Skipping module MUX2_LUT7
+# -- Skipping module MUX2_LUT8
+# -- Skipping module MUX2_MUX8
+# -- Skipping module MUX2_MUX16
+# -- Skipping module MUX2_MUX32
+# -- Skipping module MUX4
+# -- Skipping module MUX8
+# -- Skipping module MUX16
+# -- Skipping module MUX32
+# -- Skipping module LUT1
+# -- Skipping module LUT2
+# -- Skipping module LUT3
+# -- Skipping module LUT4
+# -- Skipping module LUT5
+# -- Skipping module LUT6
+# -- Skipping module LUT7
+# -- Skipping module LUT8
+# -- Skipping module ALU
+# -- Skipping module DFF
+# -- Skipping module DFFE
+# -- Skipping module DFFS
+# -- Skipping module DFFSE
+# -- Skipping module DFFR
+# -- Skipping module DFFRE
+# -- Skipping module DFFP
+# -- Skipping module DFFPE
+# -- Skipping module DFFC
+# -- Skipping module DFFCE
+# -- Skipping module DFFN
+# -- Skipping module DFFNE
+# -- Skipping module DFFNS
+# -- Skipping module DFFNSE
+# -- Skipping module DFFNR
+# -- Skipping module DFFNRE
+# -- Skipping module DFFNP
+# -- Skipping module DFFNPE
+# -- Skipping module DFFNC
+# -- Skipping module DFFNCE
+# -- Skipping module DL
+# -- Skipping module DLE
+# -- Skipping module DLC
+# -- Skipping module DLCE
+# -- Skipping module DLP
+# -- Skipping module DLPE
+# -- Skipping module DLN
+# -- Skipping module DLNE
+# -- Skipping module DLNC
+# -- Skipping module DLNCE
+# -- Skipping module DLNP
+# -- Skipping module DLNPE
+# -- Skipping module INV
+# -- Skipping module IBUF
+# -- Skipping module OBUF
+# -- Skipping module TBUF
+# -- Skipping module IOBUF
+# -- Skipping module IDDR
+# -- Skipping module IDDRC
+# -- Skipping module ODDR
+# -- Skipping module ODDRC
+# -- Skipping module IDES4
+# -- Skipping module IVIDEO
+# -- Skipping module IDES8
+# -- Skipping module IDES10
+# -- Skipping module IDES16
+# -- Skipping module OSER4
+# -- Skipping module OVIDEO
+# -- Skipping module OSER8
+# -- Skipping module OSER10
+# -- Skipping module OSER16
+# -- Skipping module IODELAY
+# -- Skipping module IEM
+# -- Skipping module RAM16S1
+# -- Skipping module RAM16S2
+# -- Skipping module RAM16S4
+# -- Skipping module RAM16SDP1
+# -- Skipping module RAM16SDP2
+# -- Skipping module RAM16SDP4
+# -- Skipping module ROM16
+# -- Skipping module SP
+# -- Skipping module SPX9
+# -- Skipping module SDP
+# -- Skipping module SDPX9
+# -- Skipping module DP
+# -- Skipping module DPX9
+# -- Skipping module ROM
+# -- Skipping module ROMX9
+# -- Skipping module rSDP
+# -- Skipping module rSDPX9
+# -- Skipping module rROM
+# -- Skipping module rROMX9
+# -- Skipping module pROM
+# -- Skipping module pROMX9
+# -- Skipping module SDPB
+# -- Skipping module SDPX9B
+# -- Skipping module DPB
+# -- Skipping module DPX9B
+# -- Skipping module PADD18
+# -- Skipping module PADD9
+# -- Skipping module MULT9X9
+# -- Skipping module MULT18X18
+# -- Skipping module MULT36X36
+# -- Skipping module MULTALU36X18
+# -- Skipping module MULTADDALU18X18
+# -- Skipping module MULTALU18X18
+# -- Skipping module ALU54D
+# -- Skipping module BUFG
+# -- Skipping module BUFS
+# -- Skipping module GND
+# -- Skipping module VCC
+# -- Skipping module GSR
+# -- Skipping module OSC
+# -- Skipping module OSCH
+# -- Skipping module OSCF
+# -- Skipping module OSCZ
+# -- Skipping module PLL
+# -- Skipping module TLVDS_IBUF
+# -- Skipping module TLVDS_OBUF
+# -- Skipping module TLVDS_TBUF
+# -- Skipping module TLVDS_IOBUF
+# -- Skipping module ELVDS_IBUF
+# -- Skipping module ELVDS_OBUF
+# -- Skipping module ELVDS_TBUF
+# -- Skipping module ELVDS_IOBUF
+# -- Skipping module MIPI_IBUF
+# -- Skipping module MIPI_IBUF_HS
+# -- Skipping module MIPI_IBUF_LP
+# -- Skipping module MIPI_OBUF
+# -- Skipping module MIPI_OBUF_A
+# -- Skipping module I3C_IOBUF
+# -- Skipping module CLKDIV
+# -- Skipping module DHCEN
+# -- Skipping module DLL
+# -- Skipping module DLLDLY
+# -- Skipping module FLASH96K
+# -- Skipping module FLASH256K
+# -- Skipping module FLASH608K
+# -- Skipping module DCS
+# -- Skipping module DQCE
+# -- Skipping module FLASH128K
+# -- Skipping module MCU
+# -- Skipping module USB20_PHY
+# -- Skipping module ADC
+# -- Skipping module BANDGAP
+# -- Skipping module CLKDIV2
+# -- Skipping module DCC
+# -- Skipping module DHCENC
+# -- Skipping module EMCU
+# -- Skipping module FLASH64K
+# -- Skipping module FLASH64KZ
+# -- Skipping module I3C
+# -- Skipping module IODELAYA
+# -- Skipping module IODELAYC
+# -- Skipping module PLLVR
+# -- Skipping module rPLL
+# -- Skipping module SPMI
+# -- Skipping module IODELAYB
+# -- Skipping module PLLO
+# -- Skipping module OSCO
+# -- Skipping module DCCG
+# -- Skipping module FLASH96KA
+# -- Skipping module MIPI_DPHY_RX
+# -- Skipping module CLKDIVG
+# 
+# Top level modules:
+# 	MUX2_LUT5
+# 	MUX2_LUT6
+# 	MUX2_LUT7
+# 	MUX2_LUT8
+# 	MUX2_MUX8
+# 	MUX2_MUX16
+# 	MUX2_MUX32
+# 	LUT1
+# 	LUT2
+# 	LUT3
+# 	LUT4
+# 	LUT8
+# 	ALU
+# 	DFF
+# 	DFFE
+# 	DFFS
+# 	DFFSE
+# 	DFFR
+# 	DFFRE
+# 	DFFP
+# 	DFFPE
+# 	DFFC
+# 	DFFCE
+# 	DFFN
+# 	DFFNE
+# 	DFFNS
+# 	DFFNSE
+# 	DFFNR
+# 	DFFNRE
+# 	DFFNP
+# 	DFFNPE
+# 	DFFNC
+# 	DFFNCE
+# 	DL
+# 	DLE
+# 	DLC
+# 	DLCE
+# 	DLP
+# 	DLPE
+# 	DLN
+# 	DLNE
+# 	DLNC
+# 	DLNCE
+# 	DLNP
+# 	DLNPE
+# 	INV
+# 	IBUF
+# 	OBUF
+# 	TBUF
+# 	IOBUF
+# 	IDDR
+# 	IDDRC
+# 	ODDR
+# 	ODDRC
+# 	IDES4
+# 	IVIDEO
+# 	IDES8
+# 	IDES10
+# 	IDES16
+# 	OSER4
+# 	OVIDEO
+# 	OSER8
+# 	OSER10
+# 	OSER16
+# 	IODELAY
+# 	IEM
+# 	RAM16S1
+# 	RAM16S2
+# 	RAM16S4
+# 	RAM16SDP1
+# 	RAM16SDP2
+# 	RAM16SDP4
+# 	ROM16
+# 	SP
+# 	SPX9
+# 	SDP
+# 	SDPX9
+# 	DP
+# 	DPX9
+# 	ROM
+# 	ROMX9
+# 	rSDP
+# 	rSDPX9
+# 	rROM
+# 	rROMX9
+# 	pROM
+# 	pROMX9
+# 	SDPB
+# 	SDPX9B
+# 	DPB
+# 	DPX9B
+# 	PADD18
+# 	PADD9
+# 	MULT9X9
+# 	MULT18X18
+# 	MULT36X36
+# 	MULTALU36X18
+# 	MULTADDALU18X18
+# 	MULTALU18X18
+# 	ALU54D
+# 	BUFG
+# 	BUFS
+# 	GND
+# 	VCC
+# 	GSR
+# 	OSC
+# 	OSCH
+# 	OSCF
+# 	OSCZ
+# 	PLL
+# 	TLVDS_IBUF
+# 	TLVDS_OBUF
+# 	TLVDS_TBUF
+# 	TLVDS_IOBUF
+# 	ELVDS_IBUF
+# 	ELVDS_OBUF
+# 	ELVDS_TBUF
+# 	ELVDS_IOBUF
+# 	MIPI_IBUF
+# 	MIPI_IBUF_HS
+# 	MIPI_IBUF_LP
+# 	MIPI_OBUF
+# 	MIPI_OBUF_A
+# 	I3C_IOBUF
+# 	CLKDIV
+# 	DHCEN
+# 	DLL
+# 	DLLDLY
+# 	FLASH96K
+# 	FLASH256K
+# 	FLASH608K
+# 	DCS
+# 	DQCE
+# 	FLASH128K
+# 	MCU
+# 	USB20_PHY
+# 	ADC
+# 	BANDGAP
+# 	CLKDIV2
+# 	DCC
+# 	DHCENC
+# 	EMCU
+# 	FLASH64K
+# 	FLASH64KZ
+# 	I3C
+# 	IODELAYA
+# 	IODELAYC
+# 	PLLVR
+# 	rPLL
+# 	SPMI
+# 	IODELAYB
+# 	PLLO
+# 	OSCO
+# 	DCCG
+# 	FLASH96KA
+# 	MIPI_DPHY_RX
+# 	CLKDIVG
+# End time: 13:49:57 on Mar 05,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -gui -novopt work.tb_water_led_top 
+# Start time: 13:49:57 on Mar 05,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_water_led_top
+# Loading work.water_led_top
+# Loading work.sys_pll
+# Loading work.PLL
+# Loading work.water_led
+# .main_pane.wave.interior.cs.body.pw.wf
+# End time: 13:50:25 on Mar 05,2022, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 1

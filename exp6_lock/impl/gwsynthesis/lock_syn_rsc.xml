@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="lock_top">
+    <SubModule name="key_ctl" Register="8" Lut="6">
+        <SubModule name="btn_deb_key" Register="24" Alu="19" Lut="8"/>
+    </SubModule>
+    <SubModule name="compare" Register="4" Alu="4" Lut="1"/>
+    <SubModule name="seq_display" Register="20" Lut="41">
+        <SubModule name="div_clk" Register="16" Alu="14" Lut="11"/>
+    </SubModule>
+</Module>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top_freq" Register="14" Lut="61">
+    <SubModule name="btn_deb_key" Register="21" Alu="19" Lut="8"/>
+    <SubModule name="key0" Register="5" Lut="7"/>
+    <SubModule name="freq_test" Register="74" Alu="51" Lut="63"/>
+    <SubModule name="div_clk" Register="16" Alu="14" Lut="11"/>
+</Module>

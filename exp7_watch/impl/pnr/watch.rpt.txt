@@ -1,0 +1,182 @@
+//Copyright (C)2014-2022 Gowin Semiconductor Corporation.
+//All rights reserved.
+
+
+1. PnR Messages
+
+  <Report Title>: PnR Report
+  <Design File>: C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\impl\gwsynthesis\watch.vg
+  <Physical Constraints File>: C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\top_watch.cst
+  <Timing Constraints File>: C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp7_watch\src\watch.sdc
+  <PnR Version>: V1.9.8.03
+  <Part Number>: GW1NSR-LV4CQN48PC7/I6
+  <Device>: GW1NSR-4C
+  <Created Time>:Thu Mar 03 12:06:35 2022
+
+
+2. PnR Details
+
+  Running placement:
+    Placement Phase 0: CPU time = 0h 0m 0.02s, Elapsed time = 0h 0m 0.021s
+    Placement Phase 1: CPU time = 0h 0m 0.08s, Elapsed time = 0h 0m 0.072s
+    Placement Phase 2: CPU time = 0h 0m 0.02s, Elapsed time = 0h 0m 0.022s
+    Placement Phase 3: CPU time = 0h 0m 0.92s, Elapsed time = 0h 0m 0.922s
+    Total Placement: CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
+ Running routing:
+    Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
+    Routing Phase 1: CPU time = 0h 0m 0.035s, Elapsed time = 0h 0m 0.039s
+    Routing Phase 2: CPU time = 0h 0m 0.107s, Elapsed time = 0h 0m 0.102s
+    Total Routing: CPU time = 0h 0m 0.142s, Elapsed time = 0h 0m 0.141s
+ Generate output files:
+    CPU time = 0h 0m 0.53s, Elapsed time = 0h 0m 0.529s
+
+ Total Time and Memory Usage: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 168MB
+
+
+3. Resource Usage Summary
+
+  ----------------------------------------------------------
+  Resources                   | Usage
+  ----------------------------------------------------------
+  Logic                       | 284/4608  6%
+    --LUT,ALU,ROM16           | 284(217 LUT, 67 ALU, 0 ROM16)
+    --SSRAM(RAM16)            | 0
+  Register                    | 147/3570  4%
+    --Logic Register as Latch | 0/3456  0%
+    --Logic Register as FF    | 136/3456  3%
+    --I/O Register as Latch   | 0/114  0%
+    --I/O Register as FF      | 11/114  9%
+  CLS                         | 165/2304  7%
+  I/O Port                    | 17
+  I/O Buf                     | 17
+    --Input Buf               | 4
+    --Output Buf              | 13
+    --Inout Buf               | 0
+  IOLOGIC                     | 0%
+  BSRAM                       | 0%
+  DSP                         | 0%
+  PLL                         | 0/2  0%
+  DCS                         | 0/4  0%
+  DQCE                        | 0/12  0%
+  OSC                         | 0/1  0%
+  CLKDIV                      | 0/6  0%
+  DLLDLY                      | 0/6  0%
+  DHCEN                       | 0/12  0%
+  ==========================================================
+
+
+
+4. I/O Bank Usage Summary
+
+  -----------------------
+  I/O Bank  | Usage       
+  -----------------------
+  bank 0   | 2/10(20%)   
+  bank 1   | 10/10(100%) 
+  bank 2   | 4/9(44%)    
+  bank 3   | 1/24(4%)    
+  =======================
+
+
+5. Global Clock Usage Summary
+
+  -------------------------------
+  Global Clock  | Usage       
+  -------------------------------
+  PRIMARY       | 2/8(25%)
+  SECONDARY     | 0/8(0%)
+  GCLK_PIN      | 3/5(60%)
+  PLL           | 0/2(0%)
+  CLKDIV        | 0/6(0%)
+  DLLDLY        | 0/6(0%)
+  ===============================
+
+
+6. Global Clock Signals
+
+  -------------------------------------------
+  Signal         | Global Clock   | Location
+  -------------------------------------------
+  clk_d          | PRIMARY        |  LEFT RIGHT
+  clk_1khz       | PRIMARY        |  LEFT RIGHT
+  ===========================================
+
+
+7. Pinout by Port Name
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Port Name  | Diff Pair | Loc./Bank | Constraint | Dir.  | Site     | IO Type    | Drive | Pull Mode | PCI Clamp | Hysteresis | Open Drain | Slew Rate | Vref       | Single Resistor | Diff Resistor | BankVccio 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk        |           | 22/3      | Y          | in    | IOB22[A] | LVCMOS18   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2       
+key[0]     |           | 31/2      | Y          | in    | IOR11[B] | LVCMOS25   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 2.5       
+key[1]     |           | 29/2      | Y          | in    | IOR15[B] | LVCMOS25   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 2.5       
+key[2]     |           | 27/2      | Y          | in    | IOR17[B] | LVCMOS25   | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 2.5       
+led        |           | 35/2      | Y          | out   | IOR2[A]  | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | OFF             | NA            | 2.5       
+dig[0]     |           | 48/1      | Y          | out   | IOT11[A] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+dig[1]     |           | 46/1      | Y          | out   | IOT13[B] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+dig[2]     |           | 44/1      | Y          | out   | IOT17[B] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+dig[3]     |           | 42/1      | Y          | out   | IOT20[B] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+smg[0]     |           | 1/0       | Y          | out   | IOT10[A] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+smg[1]     |           | 39/1      | Y          | out   | IOT26[A] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+smg[2]     |           | 40/1      | Y          | out   | IOT26[B] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+smg[3]     |           | 41/1      | Y          | out   | IOT20[A] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+smg[4]     |           | 43/1      | Y          | out   | IOT17[A] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+smg[5]     |           | 45/1      | Y          | out   | IOT13[A] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+smg[6]     |           | 47/1      | Y          | out   | IOT11[B] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+smg[7]     |           | 2/0       | Y          | out   | IOT10[B] | LVCMOS25   | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5       
+==================================================================================================================================================================================================================
+
+
+
+
+8. All Package Pins
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Loc./Bank| Signal  | Dir.  | Site     | IO Type  | Drive | Pull Mode | PCI Clamp | Hysteresis | Open Drain | Slew Rate | Vref       | Single Resistor | Diff Resistor | Bank Vccio
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3/0      | -       | in    | IOT2[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+4/0      | -       | in    | IOT2[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+6/0      | -       | in    | IOT3[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+7/0      | -       | in    | IOT3[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+8/0      | -       | in    | IOT4[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+9/0      | -       | in    | IOT5[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+10/0     | -       | in    | IOT7[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+1/0      | smg[0]  | out   | IOT10[A] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+2/0      | smg[7]  | out   | IOT10[B] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+48/1     | dig[0]  | out   | IOT11[A] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+47/1     | smg[6]  | out   | IOT11[B] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+45/1     | smg[5]  | out   | IOT13[A] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+46/1     | dig[1]  | out   | IOT13[B] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+43/1     | smg[4]  | out   | IOT17[A] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+44/1     | dig[2]  | out   | IOT17[B] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+41/1     | smg[3]  | out   | IOT20[A] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+42/1     | dig[3]  | out   | IOT20[B] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+39/1     | smg[1]  | out   | IOT26[A] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+40/1     | smg[2]  | out   | IOT26[B] | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | NA              | NA            | 2.5  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13/3     | -       | in    | IOB4[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+14/3     | -       | in    | IOB4[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+15/3     | -       | in    | IOB5[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+16/3     | -       | in    | IOB6[A]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+17/3     | -       | in    | IOB6[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+18/3     | -       | in    | IOB13[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+19/3     | -       | in    | IOB13[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+20/3     | -       | in    | IOB16[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+21/3     | -       | in    | IOB16[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+22/3     | clk     | in    | IOB22[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+23/3     | -       | in    | IOB22[B] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 1.2  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+35/2     | led     | out   | IOR2[A]  | LVCMOS25 | 8     | NONE      | NA        | NA         | OFF        | FAST      | NA         | OFF             | NA            | 2.5  
+34/2     | -       | in    | IOR2[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+33/2     | -       | in    | IOR9[B]  | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+32/2     | -       | in    | IOR11[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+31/2     | key[0]  | in    | IOR11[B] | LVCMOS25 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 2.5  
+30/2     | -       | in    | IOR15[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+29/2     | key[1]  | in    | IOR15[B] | LVCMOS25 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 2.5  
+28/2     | -       | in    | IOR17[A] | LVCMOS18 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | NA              | NA            | 2.5  
+27/2     | key[2]  | in    | IOR17[B] | LVCMOS25 | NA    | UP        | NA        | NONE       | NA         | NA        | NA         | OFF             | NA            | 2.5  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+====================================================================================================================================================================================
+
+

@@ -1,0 +1,32 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/btn_deb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/div_clk.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/top_seq2.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/impl/temp/rtl_parser.result",
+ "Top" : "top_seq2",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_2008"
+}

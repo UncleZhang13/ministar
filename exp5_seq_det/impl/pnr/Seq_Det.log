@@ -1,0 +1,29 @@
+Reading netlist file: "I:\Gowin\mini_star\exp5_seq_det\impl\gwsynthesis\Seq_Det.vg"
+Parsing netlist file "I:\Gowin\mini_star\exp5_seq_det\impl\gwsynthesis\Seq_Det.vg" completed
+Processing netlist completed
+Reading constraint file: "I:\Gowin\mini_star\exp5_seq_det\src\top_seq_det.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "I:\Gowin\mini_star\exp5_seq_det\impl\pnr\Seq_Det.power.html" completed
+Generate file "I:\Gowin\mini_star\exp5_seq_det\impl\pnr\Seq_Det.pin.html" completed
+Generate file "I:\Gowin\mini_star\exp5_seq_det\impl\pnr\Seq_Det.rpt.html" completed
+Generate file "I:\Gowin\mini_star\exp5_seq_det\impl\pnr\Seq_Det.rpt.txt" completed
+Generate file "I:\Gowin\mini_star\exp5_seq_det\impl\pnr\Seq_Det.tr.html" completed
+Fri May 14 10:20:41 2021
+

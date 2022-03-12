@@ -1,0 +1,38 @@
+[
+ {
+  "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v",
+  "InstLine" : 23,
+  "InstName" : "key_led_top",
+  "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v",
+  "ModuleLine" : 23,
+  "ModuleName" : "key_led_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v",
+    "InstLine" : 32,
+    "InstName" : "key_ctl",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_ctl.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "key_ctl",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_ctl.v",
+      "InstLine" : 35,
+      "InstName" : "U_btn_deb",
+      "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/btn_deb.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "btn_deb"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v",
+    "InstLine" : 39,
+    "InstName" : "u_led",
+    "ModuleFile" : "C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/led.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "led"
+   }
+  ]
+ }
+]

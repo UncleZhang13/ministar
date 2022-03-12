@@ -1,0 +1,9 @@
+-d C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\impl\gwsynthesis\lock.vg
+-p GW1NSR-4C-QFN48P-7
+-pn GW1NSR-LV4CQN48PC7/I6
+-cst C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\src\lock.cst
+-cfg C:\Users\Uncle\Desktop\FPGA\mini_star(1)\exp6_lock\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing

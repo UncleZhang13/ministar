@@ -1,0 +1,64 @@
+C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_led_top.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_led_top.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_key_led_top
+
+Top level modules:
+	tb_key_led_top
+
+} {} {}} C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/btn_deb.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/btn_deb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module btn_deb
+
+Top level modules:
+	btn_deb
+
+} {} {}} C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_ctl.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/tb/tb_key_ctl.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_key_ctl
+
+Top level modules:
+	tb_key_ctl
+
+} {} {}} C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/btn_deb.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/btn_deb.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module btn_deb
+
+Top level modules:
+	btn_deb
+
+} {} {}} C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/key_led_top.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module key_led_top
+
+Top level modules:
+	key_led_top
+
+} {} {}} C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/tb/tb_top_seq2.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/tb/tb_top_seq2.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_top_seq2
+
+Top level modules:
+	tb_top_seq2
+
+} {} {}} C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/seq_control.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module seq_control
+
+Top level modules:
+	seq_control
+
+} {} {}} C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/led.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp3_key_led/src/led.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module led
+
+Top level modules:
+	led
+
+} {} {}} C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v {1 {vlog -work work -vopt -stats=none C:/Users/Uncle/Desktop/FPGA/mini_star(1)/exp4_seg_display/src/key_cnt.v
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module key_cnt
+
+Top level modules:
+	key_cnt
+
+} {} {}}
